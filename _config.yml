@@ -30,12 +30,12 @@ author:
   location         : "Riverside, CA"
   employer         : "University of California, Riverside"
   uri              : # URL
-  email            : "bzuo002@ucr.edu"
+  email            : "bowen.zuo@email.ucr.edu"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=Dj7tV-G7XMgC&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            :
