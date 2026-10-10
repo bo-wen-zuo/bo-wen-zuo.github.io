@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Bowen Zuo is a second-year Ph.D. student in Electrical and Computer Engineering at the University of California, Riverside, advised by professor Yinglun Zhu. His research focuses on large language models, with a particular emphasis on test-time scaling. He is currently working on diffusion large language models.
+Bowen Zuo is a third-year Ph.D. student in Electrical and Computer Engineering at the University of California, Riverside, advised by professor [Yinglun Zhu](https://yinglunz.com). His research focuses on large language models, with a particular emphasis on test-time scaling. He is currently working on diffusion large language models.
 
-Prior to his Ph.D., he received his M.S. in Computer Science from the Georgia Institute of Technology, working with professor Larry Heck on digital humans, and his B.S. in Electrical and Computer Engineering from the University of Washington, where he worked at ACME Lab with professor Scott Hauck and professor Shih-Chieh Hsu on high-level synthesis and machine learning acceleration for Physics discovery.
+Prior to his Ph.D., he received his M.S. in Computer Science from the Georgia Institute of Technology, working with professor [Larry Heck](https://www.cc.gatech.edu/people/larry-heck) on digital humans, and his B.S. in Electrical and Computer Engineering from the University of Washington, where he worked at ACME Lab with professor Scott Hauck and professor [Shih-Chieh Hsu](https://faculty.washington.edu/schsu) on high-level synthesis and machine learning acceleration for Physics discovery.
 
 He is always happy to discuss potential collaborations, whether on test-time scaling, diffusion language models, or related topics in large language models. Feel free to reach out by [email](mailto:bowen.zuo@email.ucr.edu) if you'd like to connect.
