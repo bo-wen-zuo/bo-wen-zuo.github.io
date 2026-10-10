@@ -6,7 +6,7 @@ subtitle: Ph.D. Student in ECE, University of California, Riverside
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Riverside, CA</p>
