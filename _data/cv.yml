@@ -1,0 +1,52 @@
+cv:
+  name: Bowen Zuo
+  label: Ph.D. Student
+  email: bowen.zuo@email.ucr.edu
+  location: Riverside, CA
+  image: ""
+  summary: Ph.D. student in ECE at UC Riverside researching large language models and test-time scaling.
+
+  social_networks:
+    - network: GitHub
+      username: bo-wen-zuo
+
+  sections:
+    Education:
+      - institution: University of California, Riverside
+        area: Electrical & Computer Engineering
+        studyType: Ph.D.
+        start_date: 2024-09
+        end_date: present
+      - institution: Georgia Institute of Technology
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2022-08
+        end_date: 2024-05
+        score: "Cumulative GPA 3.86 / Major GPA 3.91"
+      - institution: University of Washington
+        area: Electrical & Computer Engineering (Embedded Systems)
+        studyType: B.S.
+        start_date: 2018-09
+        end_date: 2022-06
+        score: "Cumulative GPA 3.76 / Major GPA 3.80"
+
+    Experience:
+      - company: Zhu Lab, University of California, Riverside
+        position: Graduate Researcher
+        start_date: 2024-09
+        end_date: present
+        highlights:
+          - Conduct research on large language models, currently focusing on test-time scaling across domains.
+      - company: AVA Lab, Georgia Institute of Technology
+        position: Graduate Researcher
+        start_date: 2023-01
+        end_date: 2024-05
+        highlights:
+          - Led work on talking-face generation and surveyed recent digital-human research and applications.
+          - Investigated audio-to-gesture modeling, with a focus on dyadic conversation settings.
+      - company: ACME Lab, University of Washington
+        position: Undergraduate Researcher
+        start_date: 2021-10
+        end_date: 2022-06
+        highlights:
+          - Worked on High-Level Synthesis for Machine Learning (hls4ml) and built an ML algorithm accelerator.

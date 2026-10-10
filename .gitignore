@@ -1,23 +1,26 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
 
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
-/vendor/
+al-folio-upgrade-report.md
+assets/libs/
+assets/rendercv/rendercv_output/*.typ
+.bundle
 .bundle/
-
-# Ignore folders related to IDEs
-.vscode/
-
-# Ignore files created by MacOS
-.DS_Store
+.DS_store
+.idea
+.jekyll-cache
+.jekyll-cache/
+.jekyll-metadata
+node_modules/
+output/playwright/
+*.pyc
+__pycache__/
+# Python bytecode from bin/ helper scripts
+.ruby-version
+.sass-cache
+.sass-cache/
+_site
+_site/
+test-results/
+.tweet-cache
+vendor
+vendor/
+.venv
