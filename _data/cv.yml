@@ -2,9 +2,10 @@ cv:
   name: Bowen Zuo
   label: Ph.D. Student
   email: bowen.zuo@email.ucr.edu
+  website: https://bo-wen-zuo.github.io
   location: Riverside, CA
   image: ""
-  summary: Ph.D. student in ECE at UC Riverside researching large language models and test-time scaling.
+  summary: Ph.D. student in ECE at UC Riverside researching large language models, spanning test-time scaling, diffusion language models, AI efficiency, and post-training.
 
   social_networks:
     - network: GitHub
@@ -13,32 +14,41 @@ cv:
   sections:
     Education:
       - institution: University of California, Riverside
+        location: Riverside, CA
         area: Electrical & Computer Engineering
         studyType: Ph.D.
         start_date: 2024-09
         end_date: present
       - institution: Georgia Institute of Technology
+        location: Atlanta, GA
         area: Computer Science
         studyType: M.S.
         start_date: 2022-08
         end_date: 2024-05
-        score: "Cumulative GPA 3.86 / Major GPA 3.91"
+        highlights:
+          - "Cumulative GPA: 3.86 / Major GPA: 3.91"
       - institution: University of Washington
-        area: Electrical & Computer Engineering (Embedded Systems)
+        location: Seattle, WA
+        area: Electrical & Computer Engineering, Embedded Systems
         studyType: B.S.
         start_date: 2018-09
         end_date: 2022-06
-        score: "Cumulative GPA 3.76 / Major GPA 3.80"
+        highlights:
+          - "Cumulative GPA: 3.76 / Major GPA: 3.80"
 
     Experience:
-      - company: Zhu Lab, University of California, Riverside
+      - company: Zhu Lab, UC Riverside
         position: Graduate Researcher
+        location: Riverside, CA
         start_date: 2024-09
         end_date: present
         highlights:
-          - Conduct research on large language models, currently focusing on test-time scaling across domains.
+          - Conduct research on large language models, spanning test-time scaling, diffusion language models, AI efficiency, and post-training.
+          - Developed adaptive test-time compute allocation methods for LLMs, including bandit-based budget allocation and evolving in-context demonstrations (ICLR 2026, Findings of ACL 2026).
+          - Designed test-time scaling and RL post-training methods for diffusion language models, including frequency-aware remasking (NeurIPS 2026) and risk-sensitive GRPO (COLM Non-AR Workshop).
       - company: AVA Lab, Georgia Institute of Technology
         position: Graduate Researcher
+        location: Atlanta, GA
         start_date: 2023-01
         end_date: 2024-05
         highlights:
@@ -46,7 +56,71 @@ cv:
           - Investigated audio-to-gesture modeling, with a focus on dyadic conversation settings.
       - company: ACME Lab, University of Washington
         position: Undergraduate Researcher
+        location: Seattle, WA
         start_date: 2021-10
         end_date: 2022-06
         highlights:
           - Worked on High-Level Synthesis for Machine Learning (hls4ml) and built an ML algorithm accelerator.
+
+    Projects:
+      - name: Test-time Scaling with LLMs
+        highlights:
+          - Scaled LLM inference for math reasoning and code generation by developing a dynamic compute-allocation algorithm that replaced uniform inference budgets, which achieved consistent performance gains across evaluated benchmarks. Extended the base method with bandit-based adaptive allocation, improving robustness on skewed, hard-question-dominant distributions; this work became an ICLR 2026 accepted paper.
+          - Developed an adaptive allocation framework that jointly decides where to spend test-time compute and how to generate, conditioning on successful responses to semantically related queries as evolving in-context demonstrations; this work was accepted to Findings of ACL 2026.
+      - name: Diffusion Language Models
+        highlights:
+          - "Proposed a two-stage test-time scaling method for diffusion language models: a fast base sampler handles easy questions, and frequency-aware remasking, which tracks how often token predictions change across denoising steps, targets the remaining hard ones. On LLaDA-8B-Instruct and Dream-7B-Instruct, achieved up to 7.4% accuracy gains on MATH-500 and up to 11.18% coverage gains on HumanEval; this work was accepted to NeurIPS 2026."
+      - name: Post-training
+        highlights:
+          - Developed stepwise risk-sensitive GRPO for diffusion language models to encourage exploration and improve reasoning during RL post-training; this work appeared at the COLM Non-AR Workshop 2026.
+          - Analyzed why on-policy distillation fails to transfer capabilities between language models, identifying vanishing learning signals that cause early loss plateaus with larger-scale teachers on code generation and math reasoning.
+      - name: 3D Talking Face Generative Models
+        highlights:
+          - Reproduced training of a 3D talking-face model on Meta's Multiface dataset using PyTorch3D.
+          - Added Multiface facial textures to models that originally produced texture-free outputs.
+          - Built an interactive pipeline using Google TTS and the ChatGPT API to generate talking-face video responses.
+          - Worked with multimodal embeddings (identity, audio, images, and text) in encoder–decoder architectures.
+
+    Teaching Experience:
+      - bullet: Teaching Assistant, CS 260 Large Models and Advances in AI, UC Riverside.
+      - bullet: Head Teaching Assistant, CS 228 Introduction to Deep Learning, UC Riverside.
+      - bullet: Teaching Assistant, CS 4644/7643 Deep Learning, Georgia Institute of Technology.
+
+    Publications:
+      - title: Test-time Scaling for Diffusion Language Models with Frequency-Aware Remasking
+        publisher: NeurIPS 2026
+        date: 2026-12
+        summary: "**B. Zuo**, Y. Yu, D. Zhou, Y. Zhu."
+      - title: "Strategic Scaling of Test-Time Compute: A Bandit Learning Approach"
+        publisher: ICLR 2026
+        date: 2026-04
+        url: https://arxiv.org/abs/2506.12721
+        summary: "**B. Zuo**, Y. Zhu."
+      - title: Adaptive Test-Time Compute Allocation with Evolving In-Context Demonstrations
+        publisher: Findings of ACL 2026
+        date: 2026-07
+        url: https://arxiv.org/abs/2604.21018
+        summary: "**B. Zuo**, D. Zhou, Y. Zhu."
+      - title: "Exploring More, Reasoning Better: Stepwise Risk-Sensitive GRPO for Diffusion Language Models"
+        publisher: COLM Non-AR Workshop 2026
+        date: 2026-10
+        summary: "Y. Yu, **B. Zuo**, D. J. Crandall, Y. Zhu, D. Zhou."
+      - title: "Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals"
+        publisher: arXiv:2610.11247
+        date: 2026-10
+        url: https://arxiv.org/abs/2610.11247
+        summary: "L. Zhao, Q. Zhao, **B. Zuo**, Q. Zhan."
+      - title: "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement"
+        publisher: arXiv:2609.38721
+        date: 2026-09
+        url: https://arxiv.org/abs/2609.38721
+        summary: "F. Wu, D. Xing, Y. Huang, et al. (incl. **B. Zuo**)."
+      - title: "Conversational Gestures: Transforming Text into Full-Body Virtual Interactions"
+        publisher: SouthNLP 2024
+        date: 2024-04
+        summary: "Coauthor."
+      - title: Machine Learning Evaluation in the Global Event Processor FPGA for the ATLAS Trigger Upgrade
+        publisher: Journal of Instrumentation (JINST) 2024
+        date: 2024-05
+        url: https://arxiv.org/abs/2406.12875
+        summary: "Z. Jiang, B. Carlson, **B. Zuo**, et al."
