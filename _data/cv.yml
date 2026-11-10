@@ -90,6 +90,7 @@ cv:
       - title: Test-time Scaling for Diffusion Language Models with Frequency-Aware Remasking
         publisher: NeurIPS 2026
         date: 2026-12
+        url: https://arxiv.org/abs/2611.10486
         summary: "**B. Zuo**, Y. Yu, D. Zhou, Y. Zhu."
       - title: "Strategic Scaling of Test-Time Compute: A Bandit Learning Approach"
         publisher: ICLR 2026
